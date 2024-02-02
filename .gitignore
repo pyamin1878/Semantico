@@ -161,3 +161,10 @@ cython_debug/
 
 # Full Dataset
 wiki_corpus.json
+
+#SentencePiece
+m.model
+m.vocab
+m_bpe.model
+m_bpe.vocab
+preprocessed_data.txt
