@@ -1,3 +1,8 @@
+import os
+import json
+import time
+import wikipediaapi # pip install wikipediaapi in your python env
+
 def get_sections(section, parent_title, sections_to_ignore):
     """Gather sections and subsections data."""
     sect_title = section.title 
