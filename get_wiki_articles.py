@@ -49,7 +49,7 @@ user_agent = "Enter user information here"
 wiki = wikipediaapi.Wikipedia(user_agent)
 
 # Corpus file path
-corpus_file_path = '../capstone/wiki_corpus.json'
+corpus_file_path = 'your_file_path.json'
 
 # Load existing corpus
 wiki_corpus = load_corpus(corpus_file_path)
@@ -57,7 +57,7 @@ wiki_corpus = load_corpus(corpus_file_path)
 # Define sections to ignore
 to_ignore = {'References', 'External links', 'See also', 'Notes'}
 
-# Get Articles from Category, pulling feature articles for this example
+# Get Articles from: Pulling Featured articles for this example
 cat = wiki.page("Category:Featured articles")
 articles = [w for w in cat.categorymembers.values() if w.ns == wikipediaapi.Namespace.MAIN]
 
