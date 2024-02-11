@@ -1,20 +1,8 @@
 ## Semantico
 
-<style>
-img
-{
-    display:block;
-    float:none;
-    margin-left:auto;
-    margin-right:auto;
-    width:60%;
-}
-</style>
-
-
-![alt text](images/logo_.png)
-
-<p style="text-align: center;">Semantic Similiarity Search from Wikipedia word embeddings</p>
+| ![alt text](images/logo_.png) |
+| :--: |
+**Semantic similarity search from word embeddings**
 
 
 ### Data Collection & Wikipedia API
