@@ -19,7 +19,7 @@ Refer to the etiquette guide here: [API:Etiquette](https://www.mediawiki.org/wik
 
 ### Dataset
 
-A zip file of the full dataset is provided in the repository in `json` format. Just clone down the repository and unzip `wiki_corpus.zip` in the `/data` directory. 
+A zip file of the full dataset is provided in the repository in `json` format. Just clone down the repository and unzip `wiki_corpus.zip` in the `data` directory. 
 
 
 ### Data Cleaning
@@ -40,7 +40,7 @@ This process was encapsulated within a `clean_text` function, which was then app
 
 **Lemmatization**: Converting words to their base form, thus reducing the complexity of the vocabulary and consolidating similar forms of a word (e.g., "running" to "run"), using NLTK's `WordNetLemmatizer`.
 
-### SentencePiece 
+### SentencePiece Tokenizer
 |*"SentencePiece is an unsupervised text tokenizer and detokenizer mainly for Neural Network-based text generation systems where the vocabulary size is predetermined prior to the neural model training."*|
 |:--:|
 
