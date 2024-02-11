@@ -1,5 +1,7 @@
 ## Semantico
-![alt text](logo_.png)
+
+![alt text](images/logo_.png)
+
 <p style="text-align: center;">Semantic Similiarity Search</p>
 
 
@@ -38,7 +40,7 @@ This process was encapsulated within a `clean_text` function, which was then app
 
 ### SentencePiece 
 
-| ![alt text](image-1.png) | 
+| ![alt text](images/image-1.png) | 
 |:--:| 
 | *"SentencePiece is an unsupervised text tokenizer and detokenizer mainly for Neural Network-based text generation systems where the vocabulary size is predetermined prior to the neural model training."* |
 
