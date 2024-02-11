@@ -39,14 +39,14 @@ This process was encapsulated within a `clean_text` function, which was then app
 **Lemmatization**: Converting words to their base form, thus reducing the complexity of the vocabulary and consolidating similar forms of a word (e.g., "running" to "run"), using NLTK's `WordNetLemmatizer`.
 
 ### SentencePiece 
+|*"SentencePiece is an unsupervised text tokenizer and detokenizer mainly for Neural Network-based text generation systems where the vocabulary size is predetermined prior to the neural model training."*|
+|:--:|
 
-| ![alt text](images/image-1.png) | 
-|:--:| 
-| *"SentencePiece is an unsupervised text tokenizer and detokenizer mainly for Neural Network-based text generation systems where the vocabulary size is predetermined prior to the neural model training."* |
+
 
 `SentencePiece` utilizes byte-pair encoding or `BPE` and in my provided [notebook](https://github.com/pyamin1878/Semantico/blob/main/notebooks/data_cleaning_preprocessing.ipynb), SentencePiece was employed to tokenize the preprocessed text data, showcasing its efficacy in creating a manageable and effective representation of text for machine learning models.
 
-**Training the SentencePiece Model**: The `SentencePieceTrainer.train()` function was used with specified parameters such as input file, model prefix, and vocabulary size. This step is crucial as it adapts the model to the dataset's specific linguistic characteristics.
+The `SentencePieceTrainer.train()` function was used with specified parameters such as input file, model prefix, and vocabulary size. This step is crucial as it adapts the model to the dataset's specific linguistic characteristics.
 
 The `SentencePiece` model was then utilized to tokenize text into subwords or symbols, breaking down complex words into more manageable, model-friendly units. 
 
