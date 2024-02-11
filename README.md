@@ -112,6 +112,36 @@ Chaining these two pre-trained models for complex search tasks can significantly
 
 [Retrieval and Reranking](https://www.sbert.net/examples/applications/retrieve_rerank/README.html)
 
+### Environment Setup 
+
+**Prerequisites**: 
+
+`conda` must be installed on your machine, if you do not have conda installed, you can download it from [Anaconda](https://www.anaconda.com/products/individual) or [Miniconda](https://docs.conda.io/en/latest/miniconda.html).
+
+Follow these steps to recreate the project environment for Linux/Mac/Windows/
+
+- Clone the repository to your local machine: 
+- Navigate to the repository directory:
+- Create the `conda` environment from the `environment.yml` file:
+
+```
+conda env create -f environment.yml
+```
+- Activate the newly created env
+```
+conda activate [env-name]
+```
+- Replace `env-name` with the name of the environment specified in the `environment.yml` file.
+
+#### Running the Project
+
+With the environment activated, you can now run the project. 
+
+For example, to run the script to collect data from Wikipedia:
+
+```python
+python3 get_wiki_articles.py
+```
 ### Repo Structure
 
 ```
