@@ -1,9 +1,11 @@
 ## Semantico
-
-| ![alt text](images/logo_.png) |
-| :--: |
 **Semantic similarity search from word embeddings**
 
+![alt text](images/logo_.png) 
+
+### Why Semantic Search? 
+
+Semantic search represents an advanced approach to search queries that focuses on understanding the context and intent behind a user's query, rather than relying solely on matching keywords. By leveraging natural language processing (NLP) and machine learning techniques, semantic search can interpret and analyze the nuances and meanings of words within the context, offering more accurate and relevant results. This capability makes it particularly valuable for addressing business problems, as it enhances user experience, improves the accuracy of search results, and boosts engagement by effectively understanding and responding to user needs. For businesses, implementing semantic search can lead to increased customer satisfaction, higher conversion rates, and a competitive edge in delivering content or products that truly meet user intentions and expectations.
 
 ### Data Collection & Wikipedia API
 
@@ -17,7 +19,7 @@ Refer to the etiquette guide here: [API:Etiquette](https://www.mediawiki.org/wik
 
 ### Dataset
 
-A zip file of the full dataset is provided in the repository in `json` format. Just clone down the repository and unzip `wiki_corpus.zip` in the `/data` dir [wiki_corpus](https://github.com/pyamin1878/Semantico/blob/main/data/wiki_corpus.zip)
+A zip file of the full dataset is provided in the repository in `json` format. Just clone down the repository and unzip `wiki_corpus.zip` in the `/data` directory. 
 
 
 ### Data Cleaning
