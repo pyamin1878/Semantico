@@ -108,7 +108,9 @@ In order to improve our semantic search, cross-encoders and bi-encoder models we
 
 [Cross-Encoder Model](https://huggingface.co/cross-encoder/ms-marco-MiniLM-L-6-v2)
 
-Chaining these two pre-trained models for complex search tasks can significantly improve semantic search as demonstrated by the custom pipeline built to retrieve our documents in our text corpus. Documentation on retrieval and reranking within the `SentenceTransformers` library can be found through the `SBERT` docs here: [Retrieval and Reranking](https://www.sbert.net/examples/applications/retrieve_rerank/README.html)
+Chaining these two pre-trained models for complex search tasks can significantly improve semantic search as demonstrated by the custom pipeline built to retrieve our documents in our text corpus. Documentation on retrieval and reranking within the `SentenceTransformers` library can be found through the `SBERT` docs here: 
+
+[Retrieval and Reranking](https://www.sbert.net/examples/applications/retrieve_rerank/README.html)
 
 ### Repo Structure
 
