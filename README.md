@@ -60,6 +60,8 @@ For a deeper dive into `BPE` and lossless tokenization refer to the blog post he
 
 #### Topic Modeling
 
+![alt text](images/topic_2_wordcloud.png)
+
 Topic modeling is a powerful technique in natural language processing (NLP) that aids in discovering hidden thematic structures within a large corpus of text. It involves the identification of topics that represent a set of documents, enabling the summarization of large datasets by themes rather than through individual documents or words. The method for topic modeling I used is Non-negative Matrix Factorization `NMF`, which decomposes a document-term matrix into two lower-dimensional matrices, revealing the latent topics based on the occurrence of words within documents. By specifying the number of topics, `NMF` can extract and display the most significant words associated with each topic, providing a straightforward and interpretable summary of the main themes present in the text.
 
 Results of the top 10 topics prevalent in our dataset:
