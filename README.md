@@ -80,8 +80,13 @@ Topic 10: ['army', 'force', 'division', 'war', 'german', 'attack', 'battle', 'ja
 
 In order to visualize our word embeddings we must reduce the dimensions of our data utilizing a technique called `PCA` with `K-Means`. Clustering and Principal Component Analysis (PCA) are powerful tools for analyzing and visualizing word embeddings. K-means is an unsupervised learning algorithm that groups similar data points into clusters, effectively categorizing words into distinct groups based on their embeddings, which capture semantic relationships. `PCA`, on the other hand, is a dimensionality reduction technique that simplifies the complexity of word embeddings by projecting them into a lower-dimensional space, making it easier to visualize and interpret the relationships between words. 
 
-![alt text](images/KMeans_2D_Visual.png)
+**Elbow Plot**: We visualize the silhouette scores against the number of clusters using the elbow method.
 
+![alt text](images/elbow_plot.png)
+
+Our optimal `n_clusters` looks to be around 15 for our word embeddings we can now plot and take a look at our clusters visually. 
+
+![alt text](images/KMeans_optimal_clusters.png)
 #### Approximate Nearest Neighbors aka Annoy
 
 `Annoy` (Approximate Nearest Neighbors Oh Yeah) library, is a highly efficient method for finding near neighbors in high-dimensional space. Annoy is optimized for memory usage and speed, making it suitable for applications with large datasets, such as searching for similar documents based on their embeddings. By creating an index of document embeddings, `Annoy` allows for rapid querying of the dataset to find the closest embeddings to a given input vector, using either angular (cosine) or Euclidean distance metrics. This process involves building a forest of trees where each tree is an approximation of the dataset, enabling quick nearest neighbor searches even in very large datasets. In the provided [notebook](https://github.com/pyamin1878/Semantico/blob/main/notebooks/Modeling.ipynb), document embeddings are indexed using `Annoy`, and the index is queried to find the nearest neighbors to a specific document embedding.
