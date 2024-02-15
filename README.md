@@ -7,6 +7,13 @@
 
 Semantic search represents an advanced approach to search queries that focuses on understanding the context and intent behind a user's query, rather than relying solely on matching keywords. By leveraging natural language processing (NLP) and machine learning techniques, semantic search can interpret and analyze the nuances and meanings of words within the context, offering more accurate and relevant results. This capability makes it particularly valuable for addressing business problems, as it enhances user experience, improves the accuracy of search results, and boosts engagement by effectively understanding and responding to user needs. For businesses, implementing semantic search can lead to increased customer satisfaction, higher conversion rates, and a competitive edge in delivering content or products that truly meet user intentions and expectations.
 
+### Data Understanding
+
+Wikipedia is a popular and extensive source of open information compiled by a global community of volunteers. Though any user can edit Wikipedia articles, the site employs various quality control mechanisms such as requiring citations, reviewing edits, and locking controversial pages. Over time, popular articles tend to become increasingly comprehensive and balanced through the collaborative editing process (e.g. Featured Articles). While Wikipedia should not always be considered authoritative or error-proof, the ability for anyone to flag issues or make corrections helps enhance accuracy and transparency. Combined with the scope and accessibility of its content, these features make Wikipedia a uniquely robust data source for many research and learning purposes.
+
+![alt text](<images/featured_articles _wiki.png>)
+
+
 ### Data Collection & Wikipedia API
 
 Through API calls, data was collected through the `wikipediaapi` python package [wikipedia-api](https://pypi.org/project/Wikipedia-API/). 
