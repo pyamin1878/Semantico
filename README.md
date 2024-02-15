@@ -149,6 +149,8 @@ For example, to run the script to collect data from Wikipedia:
 ```python
 python3 get_wiki_articles.py
 ```
+[Presentation Slides for Capstone](images/Semantico.pdf)
+
 ### Repo Structure
 
 ```
